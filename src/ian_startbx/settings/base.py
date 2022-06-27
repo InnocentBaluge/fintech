@@ -42,10 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'storages',
-    'rest_framework'
+    'rest_framework',
+    'ian_account'
 ]
 
-# AUTH_USER_MODEL = "ian_account.User"
+AUTH_USER_MODEL = "ian_account.User"
 
 
 MIDDLEWARE = [
