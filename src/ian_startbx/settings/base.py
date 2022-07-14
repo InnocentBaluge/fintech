@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'storages',
     'rest_framework',
-    'ian_account'
+    'ian_account',
+    'ian_startbx.apps.mpesa'
 ]
 
 AUTH_USER_MODEL = "ian_account.User"
